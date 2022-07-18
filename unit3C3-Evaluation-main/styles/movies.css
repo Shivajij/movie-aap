@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(26, 24, 24);
+    color: white;
+  }
+  #navbar{
+    width: 98.5%;
+    height: 40px;
+    margin: auto;
+    border: 1px solid ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;        
+  }
+  #add-money{
+    width: 50%;
+    margin: auto;
+    /* display: flex; */
+    text-align: center;
+  }
+  input{       
+    background-color: white;
+    border: 3px solid red;
+    padding: 4px;
+    border-radius: 10px;
+    color: black;
+    font-size: large;
+   margin-left: 50%;
+
+    
+  }
+  button{
+    background-color: green;
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+  }     
+ #movies{
+   width: 90%;
+   margin: auto;
+   /* border: 1px solid red; */
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+ }
+ #movies>div{
+   width: 80%;
+   margin: auto;
+   border: 1px solid red;
+   text-align: center;
+   margin-top: 20px;
+   line-height: 35px;
+   padding: 15px;
+ }
+ img{
+   width: 100%;
+ }
+ button:hover {
+   
+  color: rgb(32, 30, 30);
+}
